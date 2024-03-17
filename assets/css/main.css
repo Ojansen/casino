@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    button {
+        @apply py-2 px-4 rounded-2xl bg-green-400 hover:bg-green-600 transition-all disabled:bg-neutral-500;
+    }
+}
